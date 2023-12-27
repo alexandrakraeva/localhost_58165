@@ -1,5 +1,5 @@
 // script.js
-const socket = new WebSocket('ws://localhost:3000'); // WebSocket server address
+const socket = new WebSocket('https://alexandrakraeva.github.io/localhost_58165/'); // WebSocket server address
 
 document.getElementById('yesBtn').addEventListener('click', () => {
     socket.send('YES');
