@@ -5,6 +5,7 @@ document.getElementById('yesBtn').addEventListener('click', () => {
     socket.send('YES');
 });
 
+
 document.getElementById('noBtn').addEventListener('click', () => {
     socket.send('NO');
 });
